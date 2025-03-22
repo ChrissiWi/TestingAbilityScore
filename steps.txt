@@ -1,0 +1,4 @@
+dotnet new console -o AbilityScore
+dotnet new mstest -o Test
+dotnet sln add Test/ 
+dotnet add Test/Test.csproj reference AbilityScore/AbilityScore.csproj
